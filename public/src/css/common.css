@@ -115,7 +115,7 @@ margin-left: 0;
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #373D42;}
 
 .navbar-default {
-  background-color: #3165d3;
+  background-color: #141414;
   margin: 0;
   border: 0;
 }
@@ -128,13 +128,13 @@ margin-left: 0;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
-  background-color: #3165d3;
+  background-color: #000;
   color: #fff;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a:hover {
   background-color: #fff;
-  color: #3165d3;
+  color: #000;
 }
 
 .navbar-form .form-group {
@@ -229,7 +229,7 @@ margin-left: 0;
   border-radius: 3px;
   margin: 15px 0;
   padding: 8px 10px;
-  font-size: 12px;
+  font-size: 8px;
   color: #eee;
   text-align: center;
   margin-right: 10px;
@@ -751,7 +751,7 @@ a.v_highlight_more {
     margin: 10px 0;
   }
   body {
-    font-size: 12px;
+    font-size: 10px;
   }
   h1 {
     font-size: 26px;

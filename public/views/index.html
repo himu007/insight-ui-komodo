@@ -60,7 +60,7 @@
 
       </div>
       <div class="col-xs-12 col-md-4 col-gray">
-        <h2 translate>Verus Blockchain information</h2>
+        <h2 translate>vARRR Blockchain information</h2>
         <table class="table" data-ng-controller="StatusController" data-ng-init="getStatus('Info');getStatus('MiningInfo');getStatus('coinSupply')">
           <thead  data-ng-include src="'views/includes/infoStatus.html'"></thead>
           <tbody>
@@ -78,15 +78,16 @@
             </tr>
             <tr>
               <td translate>Circulating Supply Transparent</td>
-              <td class="text-right">{{coinSupply.supply}} VRSC</td>
+              <td class="text-right">{{coinSupply.supply}} vARRR</td>
             </tr>
             <tr>
               <td translate>Circulating Supply in Z addresses</td>
-              <td class="text-right">{{coinSupply.zfunds}} VRSC</td>
+              <td class="text-right">{{coinSupply.zfunds}} vARRR</td>
             </tr>
             <tr>
               <td translate>Circulating Supply Total</td>
-              <td class="text-right">{{coinSupply.total}} VRSC</td>
+              <td class="text-right">{{coinSupply.total}} vARRR</td>
+
             </tr>
             <tr>
               <td translate>Network Hashrate</td>
@@ -104,21 +105,14 @@
         </table>
       </div> <!-- END OF COL-GRAY -->
       <div class="col-xs-12 col-md-4 col-gray">
-        <h2 translate>What is Verus?</h2>
+        
+        <h2 translate>What is vARRR?</h2>
 
-        <p id="intro">Truth and privacy for all! <strong>Verus</strong> supplies tools for individuals and organizations to build equitable frameworks for social and economic change.</p>
-        <p class="subIntro">Learn more on <a href="https://verus.io" target="_blank" title="Verus Website">verus.io</a></p>
+        <p id="intro">vARRR is a <strong>PBaaS</strong> Chain a fully independant mine-able, stake-able <strong>L1</strong> chain that is connected to <a href="https://verus.io" target="_blank" title="Verus Website">Verus.io</a> via a decentralized bridge, it is capable of being 1:1 swapped from ARRR - vARRR using Komodo DeFi Exchange</_></p>
+        <p class="subIntro">Learn more at <a href="https://app.komodoplatform.com/#/dex" target="_blank" title="Verus Website">komodo dex</a></p>
 
-        <p data-ng-if='!currency.testnet'><strong>This explorer is showing the Verus mainnet.</strong></p>
-        <div id="powered" class="row">
-          <div class="powered-text">
-            <small class="text-muted" translate>Powered by</small>
-          </div>
-          <a href="https://verus.io" target="_blank" class="verusio" title="The Verus Foundation"></a>
-          <!--//<a href="https://nodejs.org" target="_blank" class="nodejs" title="NodeJS"></a>
-          <a href="https://angularjs.org" target="_blank" class="angularjs" title="AngularJS"></a>
-          <a href="https://github.com/google/leveldb" target="_blank" class="leveldb" title="LevelDB"></a>//-->
-        </div>
+        <p data-ng-if='!currency.testnet'><strong>This explorer is showing the vARRR mainnet PBaaS chain.</strong></p>
+        <a class="twitter-timeline" href="https://twitter.com/PirateChain"  target="_blank">Tweets by PirateChain</a></p>
       </div> <!-- END OF COL-3 -->
     </div>
   </div>
